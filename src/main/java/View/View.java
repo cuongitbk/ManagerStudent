@@ -54,7 +54,7 @@ public class View {
         else System.out.println("Add false");
     }
 
-    public void EditStudent() throws IOException {
+    public void EditStudent() throws IOException, InterruptedException {
         System.out.println("Edit student");
         System.out.println("Chose index of student : ");
         ShowList(studentController.GetList());
@@ -70,7 +70,7 @@ public class View {
         }
     }
 
-    public void DeleteStudent() throws IOException {
+    public void DeleteStudent() throws IOException, InterruptedException {
         System.out.println("Delete student");
         System.out.println("Chose index of student");
         int index = checkInput.Choice(studentController.GetList().size());
@@ -95,7 +95,7 @@ public class View {
         return student;
     }
 
-    public void ViewListStudent() throws IOException {
+    public void ViewListStudent() throws IOException, InterruptedException {
         System.out.println("List student ");
         ArrayList<Student> listStudent = studentController.GetList();
         ShowList(listStudent);
@@ -113,7 +113,7 @@ public class View {
         return choice;
     }
 
-    public void SortHome() throws IOException {
+    public void SortHome() throws IOException, InterruptedException {
         int choice = 0;
         do {
             choice = ViewSort();
@@ -127,7 +127,7 @@ public class View {
         }while (choice != 4);
     }
 
-    public void SortById() throws IOException {
+    public void SortById() throws IOException, InterruptedException {
         System.out.println("Sort by id ");
         ShowList(studentController.SortById());
     }
@@ -142,12 +142,12 @@ public class View {
         }
     }
 
-    public void SortByName() throws IOException {
+    public void SortByName() throws IOException, InterruptedException {
         System.out.println("Sort by name ");
         ShowList(studentController.SortByName());
     }
 
-    public void SortByScore() throws IOException {
+    public void SortByScore() throws IOException, InterruptedException {
         System.out.println("Sort by total score");
         ShowList(studentController.SortByScore());
     }
@@ -166,7 +166,7 @@ public class View {
         return choice;
     }
 
-    public void SearchHome() throws IOException {
+    public void SearchHome() throws IOException, InterruptedException {
         int choice = 0;
         do {
             choice = ViewSearch();
@@ -183,52 +183,56 @@ public class View {
         }while (choice != 7);
     }
 
-    public void SearchById() throws IOException {
+    public void SearchById() throws IOException, InterruptedException {
         Scanner input = new Scanner(System.in);
         System.out.println("Search by id ");
         System.out.println("Enter id : "); String id = input.nextLine();
         ShowList(studentController.SearchById(id));
     }
 
-    public void SearchByName() throws IOException {
+    public void SearchByName() throws IOException, InterruptedException {
         Scanner input = new Scanner(System.in);
         System.out.println("Search by name ");
         System.out.println("Enter name : "); String name = studentController.Standardized(input.nextLine());
         ShowList(studentController.SearchByName(name));
     }
 
-    public void SearchByTotalScore() throws IOException {
+    public void SearchByTotalScore() throws IOException, InterruptedException {
         System.out.println("Search by total score");
         System.out.println("Enter total score : ");
         double total_score = studentController.CheckInputDouble();
         ShowList(studentController.SearchByTotalScore(total_score));
     }
 
-    public void SearchByMathScore() throws IOException {
+    public void SearchByMathScore() throws IOException, InterruptedException {
         System.out.println("Search by math score");
         System.out.println("Enter math score : ");
         double math = studentController.CheckInputDouble();
         ShowList(studentController.SearchByMathScore(math));
     }
 
-    public void SearchByPhysicalScore() throws IOException {
+    public void SearchByPhysicalScore() throws IOException, InterruptedException {
         System.out.println("Search by physical score");
         System.out.println("Enter physical score : ");
         double physical = studentController.CheckInputDouble();
         ShowList(studentController.SearchByPhysicalScore(physical));
     }
-    public void SearchByChemistryScore() throws IOException {
+    public void SearchByChemistryScore() throws IOException, InterruptedException {
         System.out.println("Search by math score");
         System.out.println("Enter math score : ");
         double chemistry = studentController.CheckInputDouble();
         ShowList(studentController.SearchByChemistryScore(chemistry));
     }
 
-    public void Statistical() throws IOException {
+    public void Statistical() throws IOException, InterruptedException {
         System.out.println("Statistical student");
         System.out.println("total students has score under 15 :  "+ studentController.Statistical15(0,15));
         System.out.println("total students has score form 15 to 20 : "+ studentController.Statistical15(15,20));
         System.out.println("total students has score form 20 to 25 : "+  studentController.Statistical15(20,25));
         System.out.println("total students has more than 25 score: "+  studentController.Statistical15(25,30));
+    }
+
+    public void Exit() throws IOException {
+        studentController.Exit();
     }
 }

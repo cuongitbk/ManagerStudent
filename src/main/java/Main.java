@@ -6,7 +6,7 @@ import java.io.IOException;
  * Created by hungm on 27/09/2016.
  */
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         View view = new View();
         int choice = 0;
         do {
@@ -20,7 +20,7 @@ public class Main {
                 case 5: view.SearchHome(); break;
                 case 6: view.SortHome(); break;
                 case 7: view.Statistical(); break;
-                case 8: break;
+                case 8: view.Exit();  break;
             }
         }while (choice != 8);
     }

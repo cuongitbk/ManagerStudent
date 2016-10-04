@@ -14,7 +14,7 @@ public class StudentModel {
     FileModel fileModel = new FileModel();
 
 
-    public boolean EditStudent(Student student , int index) throws IOException {
+    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         listStudent.get(index).setId(student.getId());
         listStudent.get(index).setName(student.getName());
@@ -24,7 +24,7 @@ public class StudentModel {
         return  fileModel.OverLoadFile(listStudent);
     }
 
-    public boolean DeleteStudent(int index) throws IOException {
+    public boolean DeleteStudent(int index) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         if (index == 0 ) return false;
         listStudent.remove(index);
@@ -47,7 +47,7 @@ public class StudentModel {
         return listStudent;
     }
 
-    public ArrayList SearchByid(String id) throws IOException {
+    public ArrayList SearchByid(String id) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
         for (Student student: listStudent) {
@@ -58,7 +58,7 @@ public class StudentModel {
         }
         return result;
     }
-    public ArrayList SearchByName(String name) throws IOException {
+    public ArrayList SearchByName(String name) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
        for (int k = 0 ; k < listStudent.size() ; k++)
@@ -81,7 +81,7 @@ public class StudentModel {
         return result;
     }
 
-    public ArrayList SearchByTotalScore(double total_score) throws IOException {
+    public ArrayList SearchByTotalScore(double total_score) throws IOException, InterruptedException {
          ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
         for (Student student: listStudent
@@ -95,7 +95,7 @@ public class StudentModel {
         return result;
     }
 
-    public ArrayList SearchByMathScore(double math) throws IOException {
+    public ArrayList SearchByMathScore(double math) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
         for (Student student: listStudent
@@ -108,7 +108,7 @@ public class StudentModel {
         return result;
     }
 
-    public ArrayList SearchByPhysicalScore(double physical) throws IOException {
+    public ArrayList SearchByPhysicalScore(double physical) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
         for (Student student: listStudent
@@ -121,7 +121,7 @@ public class StudentModel {
         return result;
     }
 
-    public ArrayList SearchByChemistryScore(double chemistry) throws IOException {
+    public ArrayList SearchByChemistryScore(double chemistry) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
         for (Student student: listStudent
@@ -134,7 +134,7 @@ public class StudentModel {
         return result;
     }
 
-    public int StatisiticalScore(int head, int end) throws IOException {
+    public int StatisiticalScore(int head, int end) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         int count = 0;
         for (Student student : listStudent) {
@@ -166,6 +166,7 @@ public class StudentModel {
             str_2 = str_2 + temp[i];
         return str_2;
     }
+
 
 
 }

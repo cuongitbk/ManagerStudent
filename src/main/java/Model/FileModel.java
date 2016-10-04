@@ -48,22 +48,47 @@ public class FileModel  {
         return true;
     }
 
-    public ArrayList<Student> ListStudent () throws IOException {
-        ArrayList<Student> listStudent = new ArrayList<Student>();
+    public ArrayList<Student> ListStudent () throws IOException, InterruptedException {
 
-        FileInputStream fin = new FileInputStream("ListStudent");
+//        ThreadModel threadModel = new ThreadModel();
+//        threadModel.ThreadModel();
+        ArrayList<Student> listStudent = new ArrayList<Student>();
+        FileInputStream fin = new FileInputStream("C:/Users/Tran/OneDrive/Documents/IJproject/ManagerStudent/DIEM_THI_2016/TONGHOP.txt");
         BufferedReader in = new BufferedReader(new InputStreamReader(fin));
-        String str ="";
-        while ((str = in.readLine())!= null)
+        if (in.readLine() == null)
         {
-            String[] st = str.split("/");
-            Student student = new Student(st[0],st[1], Integer.parseInt(st[2]),Double.parseDouble(st[3]),
-                    Double.parseDouble(st[4]),Double.parseDouble(st[5]));
-            listStudent.add(student);
+            ThreadModel threadModel = new ThreadModel();
+            threadModel.ThreadModel();
+            in.close();
+            fin.close();
         }
-        in.close();
-        fin.close();
+        else {
+            in.close();
+            fin.close();
+            FileInputStream fin2 = new FileInputStream("C:/Users/Tran/OneDrive/Documents/IJproject/ManagerStudent/DIEM_THI_2016/TONGHOP.txt");
+            BufferedReader in2 = new BufferedReader(new InputStreamReader(fin2));
+            String str = "";
+            while ((str = in2.readLine()) != null) {
+                String[] st = str.split("/");
+                Student student = new Student(st[0], st[1], Integer.parseInt(st[2]), Double.parseDouble(st[3]),
+                        Double.parseDouble(st[4]), Double.parseDouble(st[5]));
+                listStudent.add(student);
+            }
+            in.close();
+            fin.close();
+        }
         return listStudent;
+    }
+
+//    public void Syntheticfile () throws InterruptedException {
+//        ThreadModel threadModel = new ThreadModel();
+//       threadModel.ThreadModel();
+//    }
+
+
+    public void DeleteData() throws IOException {
+        FileWriter fw = new FileWriter("C:/Users/Tran/OneDrive/Documents/IJproject/ManagerStudent/DIEM_THI_2016/TONGHOP.txt");
+        fw.close();
     }
 
 }

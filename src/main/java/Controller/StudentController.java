@@ -21,69 +21,69 @@ public class StudentController {
         return fileModel.WriteFile(student);
     }
 
-    public boolean EditStudent(Student student , int index) throws IOException {
+    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException {
        boolean result = studentModel.EditStudent(student,index);
         return result;
     }
 
-    public boolean DeleteStudent(int index) throws IOException {
+    public boolean DeleteStudent(int index) throws IOException, InterruptedException {
         boolean result = studentModel.DeleteStudent(index);
         return result;
     }
 
-    public ArrayList<Student> GetList() throws IOException {
+    public ArrayList<Student> GetList() throws IOException, InterruptedException {
 
        return fileModel.ListStudent();
     }
 
-    public ArrayList SortById() throws IOException {
+    public ArrayList SortById() throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         studentModel.SortStudentById(listStudent);
         return listStudent;
     }
 
-    public ArrayList SortByName() throws IOException {
+    public ArrayList SortByName() throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         studentModel.SortStudentByName(listStudent);
         return listStudent;
     }
 
-    public ArrayList SortByScore() throws IOException {
+    public ArrayList SortByScore() throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         studentModel.SortStudentByScore(listStudent);
         return listStudent;
     }
 
-    public ArrayList SearchById(String id) throws IOException {
+    public ArrayList SearchById(String id) throws IOException, InterruptedException {
          ArrayList<Student> listStudent =  studentModel.SearchByid(id);
         return listStudent;
     }
 
-    public ArrayList SearchByName(String name) throws IOException {
+    public ArrayList SearchByName(String name) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = studentModel.SearchByName(name);
         return listStudent;
     }
 
-    public ArrayList SearchByTotalScore(double total_score) throws IOException {
+    public ArrayList SearchByTotalScore(double total_score) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = studentModel.SearchByTotalScore(total_score);
         return listStudent;
     }
 
-    public ArrayList SearchByMathScore(double math) throws IOException {
+    public ArrayList SearchByMathScore(double math) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = studentModel.SearchByMathScore(math);
         return listStudent;
     }
 
-    public ArrayList SearchByPhysicalScore(double physical) throws IOException {
+    public ArrayList SearchByPhysicalScore(double physical) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = studentModel.SearchByPhysicalScore(physical);
         return listStudent;
     }
-    public ArrayList SearchByChemistryScore(double chemistry) throws IOException {
+    public ArrayList SearchByChemistryScore(double chemistry) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = studentModel.SearchByChemistryScore(chemistry);
         return listStudent;
     }
 
-    public int Statistical15(int head,int end) throws IOException {
+    public int Statistical15(int head,int end) throws IOException, InterruptedException {
         return studentModel.StatisiticalScore(head,end);
     }
 //    public int Statistical20() throws IOException {
@@ -114,5 +114,9 @@ public class StudentController {
       return studentModel.Standardized(str);
     }
 
+    public void Exit() throws IOException {
+        FileModel fileModel = new FileModel();
+        fileModel.DeleteData();
+    }
 
 }

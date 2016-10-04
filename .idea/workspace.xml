@@ -6,7 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21e804ca-5504-48f2-be30-19c746e9573a" name="Default" comment="" />
+    <list default="true" id="21e804ca-5504-48f2-be30-19c746e9573a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Model/ThreadModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Controller/StudentController.class" afterPath="$PROJECT_DIR$/build/classes/main/Controller/StudentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Model/FileModel.class" afterPath="$PROJECT_DIR$/build/classes/main/Model/FileModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Model/StudentModel.class" afterPath="$PROJECT_DIR$/build/classes/main/Model/StudentModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/View/View.class" afterPath="$PROJECT_DIR$/build/classes/main/View/View.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/Controller/StudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/FileModel.java" afterPath="$PROJECT_DIR$/src/main/java/Model/FileModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/StudentModel.java" afterPath="$PROJECT_DIR$/src/main/java/Model/StudentModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/View/View.java" afterPath="$PROJECT_DIR$/src/main/java/View/View.java" />
+    </list>
     <ignored path="ManagerStudent.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,6 +33,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ManagerStudent$Main.coverage" NAME="Main Coverage Results" MODIFIED="1475564456647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,7 +48,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -44,41 +65,24 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="99" column="61" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#ViewHome#0;class#View#0" expanded="false" />
                 <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
-                <element signature="method#AddStudent#0;class#View#0" expanded="false" />
-                <element signature="method#EditStudent#0;class#View#0" expanded="false" />
-                <element signature="method#DeleteStudent#0;class#View#0" expanded="false" />
                 <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
-                <element signature="method#ViewListStudent#0;class#View#0" expanded="false" />
                 <element signature="method#ViewSort#0;class#View#0" expanded="false" />
-                <element signature="method#SortHome#0;class#View#0" expanded="false" />
-                <element signature="method#SortById#0;class#View#0" expanded="false" />
                 <element signature="method#ShowList#0;class#View#0" expanded="false" />
-                <element signature="method#SortByName#0;class#View#0" expanded="false" />
-                <element signature="method#SortByScore#0;class#View#0" expanded="false" />
-                <element signature="method#ViewSearch#0;class#View#0" expanded="false" />
-                <element signature="method#SearchHome#0;class#View#0" expanded="false" />
-                <element signature="method#SearchById#0;class#View#0" expanded="false" />
-                <element signature="method#SearchByName#0;class#View#0" expanded="false" />
-                <element signature="method#SearchByTotalScore#0;class#View#0" expanded="false" />
-                <element signature="method#SearchByMathScore#0;class#View#0" expanded="false" />
-                <element signature="method#SearchByPhysicalScore#0;class#View#0" expanded="false" />
-                <element signature="method#SearchByChemistryScore#0;class#View#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="227">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,23 +93,10 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+            <state relative-caret-position="111">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#Add#0;class#StudentController#0" expanded="false" />
-                <element signature="method#EditStudent#0;class#StudentController#0" expanded="false" />
-                <element signature="method#DeleteStudent#0;class#StudentController#0" expanded="false" />
-                <element signature="method#GetList#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SortById#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SortByName#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SortByScore#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SearchById#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SearchByName#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SearchByTotalScore#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SearchByMathScore#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SearchByPhysicalScore#0;class#StudentController#0" expanded="false" />
-                <element signature="method#SearchByChemistryScore#0;class#StudentController#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -114,35 +105,47 @@
       <file leaf-file-name="StudentModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/StudentModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="813">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
               <folding>
-                <element signature="method#SortStudentById#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SortStudentByName#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SortStudentByScore#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SearchByid#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SearchByName#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SearchByTotalScore#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SearchByMathScore#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SearchByPhysicalScore#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#SearchByChemistryScore#0;class#StudentModel#0" expanded="false" />
                 <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
-                <element signature="method#CutName#0;class#StudentModel#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ThreadModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/ThreadModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/FileModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+            <state relative-caret-position="200">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
                 <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+                <element signature="e#1822#1831#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TONGHOP.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DIEM_THI_2016/TONGHOP.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,8 +153,8 @@
       <file leaf-file-name="ListStudent" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListStudent">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+            <state relative-caret-position="40">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,10 +170,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\hungm\.gradle\wrapper\dists\gradle-2.13-bin\4xsgxlfjcxvrea7akf941nvc7\gradle-2.13" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Tran\.gradle\wrapper\dists\gradle-2.13-bin\4xsgxlfjcxvrea7akf941nvc7\gradle-2.13" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -340,7 +346,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2949920032439" />
+        <entry key="$PROJECT_DIR$" value="2949920032000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -443,12 +449,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Controller/AddController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/CheckInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/FileModel.java" />
         <option value="$PROJECT_DIR$/ListStudent" />
         <option value="$PROJECT_DIR$/src/main/java/Model/StudentModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/FileModel.java" />
+        <option value="$PROJECT_DIR$/DIEM_THI_2016/TONGHOP.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/ThreadModel.java" />
       </list>
     </option>
   </component>
@@ -466,9 +474,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="5" />
-    <option name="width" value="1123" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -478,7 +486,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -496,7 +504,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -595,16 +604,173 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadModel.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DIEM_THI_2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DIEM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagerStudent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UniversityCompetition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1063,36 +1229,42 @@
       <workItem from="1474992995567" duration="3262000" />
       <workItem from="1475045288981" duration="9514000" />
       <workItem from="1475083216266" duration="388000" />
+      <workItem from="1475218943008" duration="464000" />
+      <workItem from="1475432009079" duration="32000" />
+      <workItem from="1475478089633" duration="7284000" />
+      <workItem from="1475507297030" duration="6567000" />
+      <workItem from="1475562995411" duration="6340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28202000" />
+    <option name="totallyTimeSpent" value="48889000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="5" width="1123" height="754" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5958132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5947205" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5947205" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21542804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67310786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4937888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1114,50 +1286,187 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controller/StudentController.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="43" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="in.readLine()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StudentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
+            <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+            <element signature="e#1822#1831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+          <folding>
+            <element signature="method#ViewHome#0;class#View#0" expanded="false" />
+            <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
+            <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
+            <element signature="method#ViewSort#0;class#View#0" expanded="false" />
+            <element signature="method#ShowList#0;class#View#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <element signature="method#Add#0;class#StudentController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StudentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
+            <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+            <element signature="e#1822#1831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4872">
           <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#ViewHome#0;class#View#0" expanded="false" />
             <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
-            <element signature="method#AddStudent#0;class#View#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#View#0" expanded="false" />
             <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#ViewListStudent#0;class#View#0" expanded="false" />
             <element signature="method#ViewSort#0;class#View#0" expanded="false" />
-            <element signature="method#SortHome#0;class#View#0" expanded="false" />
-            <element signature="method#SortById#0;class#View#0" expanded="false" />
             <element signature="method#ShowList#0;class#View#0" expanded="false" />
-            <element signature="method#SortByName#0;class#View#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#View#0" expanded="false" />
-            <element signature="method#ViewSearch#0;class#View#0" expanded="false" />
-            <element signature="method#SearchHome#0;class#View#0" expanded="false" />
-            <element signature="method#SearchById#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#View#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <element signature="method#Add#0;class#StudentController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StudentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
+            <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+            <element signature="e#1822#1831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4872">
+          <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+          <folding>
+            <element signature="method#ViewHome#0;class#View#0" expanded="false" />
+            <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
+            <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
+            <element signature="method#ViewSort#0;class#View#0" expanded="false" />
+            <element signature="method#ShowList#0;class#View#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1177,20 +1486,7 @@
         <state relative-caret-position="1869">
           <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#Add#0;class#StudentController#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#GetList#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1200,17 +1496,7 @@
         <state relative-caret-position="3045">
           <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
-            <element signature="method#SortStudentById#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByid#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentModel#0" expanded="false" />
             <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#CutName#0;class#StudentModel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1220,9 +1506,9 @@
         <state relative-caret-position="378">
           <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
             <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+            <element signature="e#1822#1831#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1240,28 +1526,11 @@
         <state relative-caret-position="1680">
           <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#ViewHome#0;class#View#0" expanded="false" />
             <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
-            <element signature="method#AddStudent#0;class#View#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#View#0" expanded="false" />
             <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#ViewListStudent#0;class#View#0" expanded="false" />
             <element signature="method#ViewSort#0;class#View#0" expanded="false" />
-            <element signature="method#SortHome#0;class#View#0" expanded="false" />
-            <element signature="method#SortById#0;class#View#0" expanded="false" />
             <element signature="method#ShowList#0;class#View#0" expanded="false" />
-            <element signature="method#SortByName#0;class#View#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#View#0" expanded="false" />
-            <element signature="method#ViewSearch#0;class#View#0" expanded="false" />
-            <element signature="method#SearchHome#0;class#View#0" expanded="false" />
-            <element signature="method#SearchById#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#View#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1281,20 +1550,7 @@
         <state relative-caret-position="1071">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#Add#0;class#StudentController#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#GetList#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1304,17 +1560,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#SortStudentById#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByid#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentModel#0" expanded="false" />
             <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#CutName#0;class#StudentModel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1332,28 +1578,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#ViewHome#0;class#View#0" expanded="false" />
             <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
-            <element signature="method#AddStudent#0;class#View#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#View#0" expanded="false" />
             <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#ViewListStudent#0;class#View#0" expanded="false" />
             <element signature="method#ViewSort#0;class#View#0" expanded="false" />
-            <element signature="method#SortHome#0;class#View#0" expanded="false" />
-            <element signature="method#SortById#0;class#View#0" expanded="false" />
             <element signature="method#ShowList#0;class#View#0" expanded="false" />
-            <element signature="method#SortByName#0;class#View#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#View#0" expanded="false" />
-            <element signature="method#ViewSearch#0;class#View#0" expanded="false" />
-            <element signature="method#SearchHome#0;class#View#0" expanded="false" />
-            <element signature="method#SearchById#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#View#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1373,20 +1602,7 @@
         <state relative-caret-position="147">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#Add#0;class#StudentController#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#GetList#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1396,17 +1612,7 @@
         <state relative-caret-position="651">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <element signature="method#SortStudentById#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByid#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentModel#0" expanded="false" />
             <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#CutName#0;class#StudentModel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1424,28 +1630,11 @@
         <state relative-caret-position="1281">
           <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#ViewHome#0;class#View#0" expanded="false" />
             <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
-            <element signature="method#AddStudent#0;class#View#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#View#0" expanded="false" />
             <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#ViewListStudent#0;class#View#0" expanded="false" />
             <element signature="method#ViewSort#0;class#View#0" expanded="false" />
-            <element signature="method#SortHome#0;class#View#0" expanded="false" />
-            <element signature="method#SortById#0;class#View#0" expanded="false" />
             <element signature="method#ShowList#0;class#View#0" expanded="false" />
-            <element signature="method#SortByName#0;class#View#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#View#0" expanded="false" />
-            <element signature="method#ViewSearch#0;class#View#0" expanded="false" />
-            <element signature="method#SearchHome#0;class#View#0" expanded="false" />
-            <element signature="method#SearchById#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#View#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1465,20 +1654,7 @@
         <state relative-caret-position="861">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#Add#0;class#StudentController#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#GetList#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1488,17 +1664,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#SortStudentById#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByid#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentModel#0" expanded="false" />
             <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#CutName#0;class#StudentModel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1528,106 +1694,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudent">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/ExampleThread/src/main/java/FileThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FileModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state relative-caret-position="111">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
-            <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+            <element signature="method#Add#0;class#StudentController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/StudentModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="813">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
-            <element signature="method#SortStudentById#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SortStudentByScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByid#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentModel#0" expanded="false" />
             <element signature="method#Standardized#0;class#StudentModel#0" expanded="false" />
-            <element signature="method#CutName#0;class#StudentModel#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/DIEM_THI_2016/TONGHOP.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Add#0;class#StudentController#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#StudentController#0" expanded="false" />
-            <element signature="method#GetList#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchById#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#StudentController#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#StudentController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="99" column="61" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#ViewHome#0;class#View#0" expanded="false" />
             <element signature="method#InputStudentView#0;class#View#0" expanded="false" />
-            <element signature="method#AddStudent#0;class#View#0" expanded="false" />
-            <element signature="method#EditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#DeleteStudent#0;class#View#0" expanded="false" />
             <element signature="method#InputEditStudent#0;class#View#0" expanded="false" />
-            <element signature="method#ViewListStudent#0;class#View#0" expanded="false" />
             <element signature="method#ViewSort#0;class#View#0" expanded="false" />
-            <element signature="method#SortHome#0;class#View#0" expanded="false" />
-            <element signature="method#SortById#0;class#View#0" expanded="false" />
             <element signature="method#ShowList#0;class#View#0" expanded="false" />
-            <element signature="method#SortByName#0;class#View#0" expanded="false" />
-            <element signature="method#SortByScore#0;class#View#0" expanded="false" />
-            <element signature="method#ViewSearch#0;class#View#0" expanded="false" />
-            <element signature="method#SearchHome#0;class#View#0" expanded="false" />
-            <element signature="method#SearchById#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByName#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByTotalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByMathScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByPhysicalScore#0;class#View#0" expanded="false" />
-            <element signature="method#SearchByChemistryScore#0;class#View#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ThreadModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="method#WriteFilePath#0;class#FileModel#0" expanded="false" />
+            <element signature="method#WriteFile#0;class#FileModel#0" expanded="false" />
+            <element signature="e#1822#1831#0" expanded="true" />
           </folding>
         </state>
       </provider>
