@@ -3,6 +3,7 @@ package View;
 import Controller.StudentController;
 import Entity.Student;
 import Model.CheckInput;
+import org.json.simple.parser.ParseException;
 
 import java.awt.*;
 import java.io.IOException;
@@ -20,7 +21,7 @@ public class View {
         System.out.println("Manage student");
         System.out.println("1. List students");
         System.out.println("2. Add student");
-        System.out.println("3. Fix student's information");
+        System.out.println("3. Edit Student");
         System.out.println("4. Delete student");
         System.out.println("5. Search student");
         System.out.println("6. Sort student");
@@ -30,8 +31,15 @@ public class View {
         int choice = studentController.CheckChoice(8);
         return choice;
     }
+
+    public ArrayList<Student> ListStudentBase() throws InterruptedException {
+
+
+        return studentController.ListStudentBase();
+    }
+
     public Student InputStudentView() {
-        String id , name ;
+        String id , name , school;
         int age;
         double math, physical , chemistry;
         Scanner input = new Scanner(System.in);
@@ -39,14 +47,15 @@ public class View {
         System.out.println("ID : "); id = input.nextLine();
         System.out.println("Name : "); name = input.nextLine();
         System.out.println("Age : "); age = checkInput.CheckInputInt();
+        System.out.println("School : " ); school = input.nextLine();
         System.out.println("Math score : ");  math = checkInput.CheckInputDouble();
         System.out.println("Physical score : "); physical = checkInput.CheckInputDouble();
         System.out.println("Chemistry score : "); chemistry = checkInput.CheckInputDouble();
-        Student student = new Student(id,studentController.Standardized(name),age,math,physical,chemistry);
+        Student student = new Student(id,studentController.Standardized(name),age,school,math,physical,chemistry);
         return student;
     }
 
-    public void AddStudent() throws IOException {
+    public void AddStudent() throws IOException, ParseException {
       Student student =  InputStudentView();
        boolean check =  studentController.Add(student);
         if (check == true)
@@ -54,13 +63,14 @@ public class View {
         else System.out.println("Add false");
     }
 
-    public void EditStudent() throws IOException, InterruptedException {
+    public void EditStudent() throws IOException, InterruptedException, ParseException {
         System.out.println("Edit student");
         System.out.println("Chose index of student : ");
         ShowList(studentController.GetList());
         int index = checkInput.Choice(studentController.GetList().size());
-        Student student = InputEditStudent();
-        boolean result = studentController.EditStudent(student,index);
+        String school = studentController.GetList().get(index).getSchool();
+        Student student = InputEditStudent(school);
+        boolean result = studentController.EditStudent(student,index-1);
         if (result == true)
         {
             System.out.println("Edit complete !");
@@ -81,17 +91,18 @@ public class View {
         } else System.out.println("Delete false");
     }
 
-    public Student InputEditStudent()
+    public Student InputEditStudent(String sch)
     {
         Scanner input = new Scanner(System.in);
         System.out.println("Edit Student  ");
         System.out.println("New Id : "); String id = input.nextLine();
         System.out.println("New name : "); String name = studentController.Standardized(input.nextLine());
         System.out.println("New age : "); int age = checkInput.CheckInputInt();
+        System.out.println("New School : " + sch); String school = sch;
         System.out.println("New math score : "); double math = checkInput.CheckInputDouble();
         System.out.println("New physical score : "); double phiscal = checkInput.CheckInputDouble();
         System.out.println("New chemistry score : "); double chemistry = checkInput.CheckInputDouble();
-        Student student = new Student(id,name,age,math,phiscal,chemistry);
+        Student student = new Student(id,name,age,school,math,phiscal,chemistry);
         return student;
     }
 
@@ -136,7 +147,7 @@ public class View {
     {
         int stt = 1;
         for (Student st: listStudent) {
-            System.out.printf("%-3d|%-5s|%-25s|%-4d|%-8.2f|%-8.2f|%-8.2f\n",stt,st.getId(),st.getName(),st.getAge(),
+            System.out.printf("%-3d|%-5s|%-25s|%-4d|%-10s |%-8.2f|%-8.2f|%-8.2f\n",stt,st.getId(),st.getName(),st.getAge(),st.getSchool(),
                     st.getMath(),st.getPhysical(),st.getChemistry());
             stt++;
         }

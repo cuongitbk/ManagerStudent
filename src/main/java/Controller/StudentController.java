@@ -5,6 +5,7 @@ import Model.CheckInput;
 import Model.FileModel;
 import Model.StudentModel;
 import View.View;
+import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,12 +17,18 @@ public class StudentController {
     CheckInput checkInput = new CheckInput();
     FileModel fileModel = new FileModel();
     StudentModel studentModel = new StudentModel();
-    public boolean Add(Student student) throws IOException {
+
+    public ArrayList<Student> ListStudentBase() throws InterruptedException {
+        ArrayList<Student> listStudentBase = fileModel.ListStudentBase();
+        return listStudentBase;
+    }
+
+    public boolean Add(Student student) throws IOException, ParseException {
 
         return fileModel.WriteFile(student);
     }
 
-    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException {
+    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException, ParseException {
        boolean result = studentModel.EditStudent(student,index);
         return result;
     }
@@ -33,7 +40,7 @@ public class StudentController {
 
     public ArrayList<Student> GetList() throws IOException, InterruptedException {
 
-       return fileModel.ListStudent();
+       return fileModel.ListStudentBase();
     }
 
     public ArrayList SortById() throws IOException, InterruptedException {
@@ -86,15 +93,7 @@ public class StudentController {
     public int Statistical15(int head,int end) throws IOException, InterruptedException {
         return studentModel.StatisiticalScore(head,end);
     }
-//    public int Statistical20() throws IOException {
-//        return studentModel.StatisiticalScore(15,20);
-//    }
-//    public int Statistical25() throws IOException {
-//        return studentModel.StatisiticalScore(20,25);
-//    }
-//    public int Statistical30() throws IOException {
-//        return studentModel.StatisiticalScore(25,30);
-//    }
+
     public int CheckChoice(int end)
     {
         return checkInput.Choice(end);

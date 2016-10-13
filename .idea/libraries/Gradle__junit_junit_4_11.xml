@@ -2,6 +2,10 @@
   <library name="Gradle: junit:junit:4.11">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/json-simple-1.1.1 (1).jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Compressed/jackson-all-1.9.0.jar.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Compressed/jackson-all-1.9.9.jar.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Compressed/jackson-all-1.9.0.jar/jackson-all-1.9.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,52 +1,58 @@
 package Model;
 
 import Entity.Student;
+import Utility.Utility;
+import org.json.simple.parser.ParseException;
 
 import javax.rmi.CORBA.StubDelegate;
+import javax.rmi.CORBA.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * Created by hungm on 27/09/2016.
  */
 public class StudentModel {
-    FileModel fileModel = new FileModel();
+ private    FileModel fileModel = new FileModel();
+   private Utility utility = new Utility();
 
-
-    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException {
-        ArrayList<Student> listStudent = fileModel.ListStudent();
-        listStudent.get(index).setId(student.getId());
+    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException, ParseException {
+        String pathFile = utility.PathFile(student.getSchool());
+        ArrayList<Student> listStudent = fileModel.ListStudentFromAFile(pathFile);
+        listStudent.get(index).setAge(student.getAge());
         listStudent.get(index).setName(student.getName());
+        listStudent.get(index).setSchool(student.getSchool());
         listStudent.get(index).setMath(student.getMath());
         listStudent.get(index).setPhysical(student.getPhysical());
         listStudent.get(index).setChemistry(student.getChemistry());
-        return  fileModel.OverLoadFile(listStudent);
+        return  fileModel.WriteListToFile(listStudent);
     }
 
     public boolean DeleteStudent(int index) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         if (index == 0 ) return false;
         listStudent.remove(index);
-        return fileModel.OverLoadFile(listStudent);
+        return //fileModel.OverLoadFile(listStudent);
+        false;
     }
 
     public ArrayList<Student> SortStudentById(ArrayList<Student> listStudent)
     {
-        Collections.sort(listStudent,Student.StudentId);
+        Collections.sort(listStudent,utility.StudentId);
         return listStudent;
     }
     public ArrayList<Student> SortStudentByName(ArrayList<Student> listStudent)
     {
-        Collections.sort(listStudent,Student.StudentName);
+        Collections.sort(listStudent,utility.StudentName);
         return listStudent;
     }
     public ArrayList<Student> SortStudentByScore(ArrayList<Student> listStudent)
     {
-        Collections.sort(listStudent,Student.StudentScore);
+        Collections.sort(listStudent,utility.StudentScore);
         return listStudent;
     }
-
     public ArrayList SearchByid(String id) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();
@@ -58,6 +64,7 @@ public class StudentModel {
         }
         return result;
     }
+
     public ArrayList SearchByName(String name) throws IOException, InterruptedException {
         ArrayList<Student> listStudent = fileModel.ListStudent();
         ArrayList<Student> result = new ArrayList<Student>();

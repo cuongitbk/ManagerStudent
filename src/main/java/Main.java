@@ -1,13 +1,18 @@
+import Controller.ThreadController;
 import View.View;
-
+import org.json.simple.parser.ParseException;
 import java.io.IOException;
+
 
 /**
  * Created by hungm on 27/09/2016.
  */
 public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException, InterruptedException, ParseException {
+        ThreadController threadController = new ThreadController();
+        threadController.ResetThread();
         View view = new View();
+        view.ListStudentBase();
         int choice = 0;
         do {
             choice = view.ViewHome();
