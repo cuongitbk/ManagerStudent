@@ -28,8 +28,8 @@ public class StudentController {
         return fileModel.WriteFile(student);
     }
 
-    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException, ParseException {
-       boolean result = studentModel.EditStudent(student,index);
+    public boolean EditStudent(Student student , int index,Student editStudent) throws IOException, InterruptedException, ParseException {
+       boolean result = studentModel.EditStudent(student,index,editStudent);
         return result;
     }
 

@@ -117,5 +117,14 @@ public class Utility
         }
     };
 
+    public   Comparator<Student> CompareStudent = new Comparator<Student>() {
+        public int compare(Student o1, Student o2) {
+            if (o1.getId().equals(o2.getId()) == true || o1.getName().equals(o2.getName()) == true||
+                 o1.getAge() == o2.getAge() || o1.getMath() == o2.getMath() ||
+            o1.getChemistry() == o1.getChemistry() || o1.getPhysical() == o2.getPhysical())   return 1;
+            return  0;
+        }
+
+    };
 
 }

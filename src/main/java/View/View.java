@@ -66,11 +66,12 @@ public class View {
     public void EditStudent() throws IOException, InterruptedException, ParseException {
         System.out.println("Edit student");
         System.out.println("Chose index of student : ");
-        ShowList(studentController.GetList());
-        int index = checkInput.Choice(studentController.GetList().size());
-        String school = studentController.GetList().get(index).getSchool();
+        ArrayList<Student> listStudent = studentController.GetList();
+        ShowList(listStudent);
+        int index = checkInput.Choice(listStudent.size());
+        String school = listStudent.get(index).getSchool();
         Student student = InputEditStudent(school);
-        boolean result = studentController.EditStudent(student,index-1);
+        boolean result = studentController.EditStudent(student,index,listStudent.get(index-1));
         if (result == true)
         {
             System.out.println("Edit complete !");

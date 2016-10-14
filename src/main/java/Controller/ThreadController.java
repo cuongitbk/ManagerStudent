@@ -55,12 +55,6 @@ class FileProcessorThread implements Runnable {
         ArrayList<Student> students = new ArrayList<Student>();
         for (String pathFile : listFileName) {
             try {
-//                FileInputStream fi = new FileInputStream(pathFile);
-//                BufferedReader in = new BufferedReader(new InputStreamReader(fi));
-//                String str = in.readLine();
-//                JSONParser jsonParser = new JSONParser();
-//                JSONArray jsonArray = (JSONArray) jsonParser.parse(str);
-//                students.addAll(utility.ConverToListStudent(jsonArray));
                   File file = new File(pathFile);
                   ObjectMapper mapper = new ObjectMapper();
                  mapper.readValue(file,new TypeReference<ArrayList<Student>>() {

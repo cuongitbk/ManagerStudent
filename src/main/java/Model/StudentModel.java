@@ -18,9 +18,10 @@ public class StudentModel {
  private    FileModel fileModel = new FileModel();
    private Utility utility = new Utility();
 
-    public boolean EditStudent(Student student , int index) throws IOException, InterruptedException, ParseException {
+    public boolean EditStudent(Student student , int indexInListTotal, Student editStudent) throws IOException, InterruptedException, ParseException {
         String pathFile = utility.PathFile(student.getSchool());
         ArrayList<Student> listStudent = fileModel.ListStudentFromAFile(pathFile);
+        int index = GetIndexStudent(editStudent);
         listStudent.get(index).setAge(student.getAge());
         listStudent.get(index).setName(student.getName());
         listStudent.get(index).setSchool(student.getSchool());
@@ -28,6 +29,21 @@ public class StudentModel {
         listStudent.get(index).setPhysical(student.getPhysical());
         listStudent.get(index).setChemistry(student.getChemistry());
         return  fileModel.WriteListToFile(listStudent);
+    }
+
+    public int GetIndexStudent(Student student) throws IOException {
+        String pathFile = utility.PathFile(student.getSchool());
+        ArrayList<Student> listStudent = fileModel.ListStudentFromAFile(pathFile);
+        int i = 0;
+
+        for (Student st_temp: listStudent) {
+         if (st_temp.getId().equals(student.getId()) == true && st_temp.getName().equals(student.getName()) == true &&
+                    st_temp.getAge() == student.getAge() && st_temp.getMath() == student.getMath() &&
+                    st_temp.getChemistry() == student.getChemistry() && st_temp.getPhysical() == student.getPhysical())   return i;
+
+            i++;
+        }
+        return 0;
     }
 
     public boolean DeleteStudent(int index) throws IOException, InterruptedException {
